@@ -1,0 +1,102 @@
+Transfer Ticket
+Transfer Number
+                               Created By:                             Jon Smith                   Last Edited By: Jon Smith
+                               Date Printed: 06/14/2021                                                Last Edited On:  06/11/2021
+5536
+                               Date Created:  06/11/2021
+From:                                                                  To:
+Find Corp         Contact:                                		    X Corp  Contact:
+14 Main St                                                             10 Anonymous St
+                               Phone:                                                                  Phone:
+Boston, MA 02101               Driver:                                 Boston, MA 02101             Driver:
+Approved By                                                                                            Approved On
+Jon Smith                                                                                          06/11/2021
+Tagged Inventory on Transfer
+                               Dell Chromebook 11 3120: Google Candy                                   Product Type:  Chromebook
+Tag                            Serial                                  Funding Source
+1SYXK82                                                                Budget
+2F20B62                                                                Budget
+GD16KD2								    Budget
+NXGPZAA001910023417600                                                 Budget
+Page                           1 of  4
+
+Transfer Number
+5536
+Dell Chromebook 11 3180: Google KEFKA            Product Type:    Chromebook
+Tag                                     Serial   Funding Source
+12YJ1G2                                          Budget
+132Y4S2                                          Budget
+14CTTP2                                          Budget
+1N5TTP2                                          Budget
+20FVTP2                                          Budget
+29R15S2                                          Budget
+2PYK1G2                                          Construction
+2X0G3G2                                          Budget
+2ZGW4S2                                          Budget
+37NV4S2                                          Budget
+3JB75S2                                          Budget
+6CD921B1D5				       Budget
+3PCW4S2                                          Budget
+3YV05S2                                          Budget
+52GY4S2                                          Budget
+5GY15S2                                          Budget
+5K6Y4S2                                          Budget
+5MZQ3G2                                          Budget
+5N3R3G2                                          Budget
+63H2VP2                                          Budget
+68SD5S2                                          Budget
+6CVF3G2                                          Budget
+6L40VP2                                          Budget
+6RYK1G2                                          Construction
+6TDVTP2                                          Budget
+6TWTTP2                                          Budget
+70J85S2                                          Budget
+710K3G2                                          Budget
+73SD5S2                                          Budget
+7CVF3G2                                          Budget
+7T5TTP2                                          Budget
+7TV05S2                                          Budget
+81XX4S2                                          Budget
+                                                                  Page         2   of   4
+
+Transfer Number
+5536
+8BJ75S2           Budget
+8QP75S2           Budget
+8YYK1G2           Construction
+97VF3G2           Budget
+9FTJ3G2           Budget
+9HY15S2           Budget
+9K8W4S2           Budget
+9PH4VP2           Budget
+BDXD3G2           Budget
+C52ZTP2           Budget
+C5WD3G2           Budget
+CXGW4S2           Budget
+D0PY4S2           Budget
+D1RJ1G2           Budget
+DCSV4S2           Budget
+DKRX4S2           Budget
+DKSW4S2           Budget
+DQD63G2           Budget
+DS6P3G2           Budget
+FD2XTP2           Budget
+FK0G3G2           Budget
+FPQ05S2           Budget
+FSXV4S2           Budget
+FYLW4S2           Budget
+GBB75S2           Budget
+GJRG1G2           Construction
+HQFV4S2           Budget
+HS5TTP2           Budget
+HVDVTP2           Budget
+J5DW4S2           Budget
+JPFV4S2           Budget
+Page              3 of  4
+
+Transfer Number
+5536
+Tag Count:  68
+Accepted By       Date
+Received By       Date
+Page              4 of  4
