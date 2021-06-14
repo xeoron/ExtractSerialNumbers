@@ -17,9 +17,9 @@ use strict;
 
  my %patterns = (                           #regrep patterns
     
-	Dell => qr/^(\w{7})\s/,				    #SN = 7  | Dell CB 3120, CB 3180, Latitude 3400/3410s,
+    Dell => qr/^(\w{7})\s/,	            #SN = 7  | Dell CB 3120, CB 3180, Latitude 3400/3410s,
     HPCB => qr/^(\w{10})\s/,                #SN = 10 | HP Chromebook 14AG5 
-	Acer => qr/^(\w{22})\s/,			    #SN = 22 | Acerspin, CB 514
+    Acer => qr/^(\w{22})\s/,	            #SN = 22 | Acerspin, CB 514
     #add more patterns here...
 
  );
