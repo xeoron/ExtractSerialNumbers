@@ -12,9 +12,9 @@ Extra features:
 	-Found count is provided at the end
 
 	HarvestSerialNumbers.pl Finds
-	-Dell Chromebooks laptops such as Latitudes
-	-Acer Chromebooks such as the Acerspin
-	-HP Chromebooks such as CB 514
+	-Dell Chromebooks and laptops such as Dell Latitudes
+	-Acer Chromebooks such as the Acerspin & 514 series
+	-HP Chromebooks such as 14AG5 series
     
 	
 	
