@@ -8,6 +8,7 @@ Purpose:
 
 Extra features:
 
+	-Add more serial number patterns to the code list to find more things
 	-Sorts by shortest to longest number
 	-Found count is provided at the end
 
