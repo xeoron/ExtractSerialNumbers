@@ -2,7 +2,7 @@
 # Name: harvestSerialNumbers.pl
 # Author: Jason Campisi
 # Date: 6/14/2021
-# Version 0.1 
+# Version 0.1.1 
 # Purpose: Harvest Serial Numbers by pattern at the start of a line
 # Usage: ./harvestSerialNumbers.pl ./harvestSN.txt
 # Repository: https://github.com/xeoron/ExtractSerialNumbers
@@ -29,7 +29,7 @@ my ($count, @SN)=(0, "");
 
 foreach (<>){
     foreach my $p (keys %patterns){   
-        if ($_=~m /^$patterns{$p}/i ){
+        if ($_=~m /$patterns{$p}/i ){
             $SN[$count] =uc($1) . "\n";
             $count++;
             last;                           #only 1 value needs to match
