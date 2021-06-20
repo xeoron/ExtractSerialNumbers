@@ -28,10 +28,9 @@ use strict;
 my ($count, @serials)=(0, "");
 
 foreach (<>){
-    foreach my $p (keys %patterns){   
-        if ($_=~m /$patterns{$p}/i ){
-            $serials[$count] =uc($1) . "\n";
-            $count++;
+    foreach my $p (keys %patterns){        #find a matching serial #   
+        if ($_=~m /$patterns{$p}/i ){       
+            $serials[$#serials++] =uc($1) . "\n";
             last;                           #only 1 value needs to match
         }
     }   
@@ -39,5 +38,5 @@ foreach (<>){
 
 
 print sort { length $a <=> length $b } @serials ;  #sort small to large
-print "\nTotal Serial Numbers $count\n";
+print "\nTotal Serial Numbers $#serials\n";
 exit;
