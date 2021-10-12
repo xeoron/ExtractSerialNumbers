@@ -11,7 +11,7 @@
 use strict;
 
  if( scalar(@ARGV)<=0 ){
-     print "Usage: harvestSerialNumbers.pl ./List-to-extract-Serials.txt\n";
+     print "Usage: harvestSerialNumbers.pl ./List-to-extract-from.txt\n";
      exit;
  }
 
@@ -19,7 +19,7 @@ use strict;
     
     Dell => qr/^(\w{7})\s/,	                #serial = 7  | Dell CB 3120, CB 3180, Latitude 3400/3410s,
     HPCB => qr/^(\w{10})\s/,                #serial = 10 | HP Chromebook 14AG5 
-    Acer => qr/^(\w{22})\s/,	            #serial = 22 | Acerspin, CB 514
+    Acer => qr/^(\w{22})\s/,                #serial = 22 | Acerspin, CB 514
     #add more patterns here...
 
  );
@@ -27,16 +27,16 @@ use strict;
 
 my ($count, @serials)=(0, "");
 
-foreach (<>){
+foreach (<>){ #read each line of the file
     foreach my $p (keys %patterns){        #find a matching serial #   
         if ($_=~m /$patterns{$p}/i ){       
             $serials[$#serials++] =uc($1) . "\n";
-            last;                           #only 1 value needs to match
+            last;                           #only 1 value needs to match per line. Go to the next line to process
         }
     }   
 }
 
 
-print sort { length $a <=> length $b } @serials ;  #sort small to large
+print sort { length $a <=> length $b } @serials ;  #sort small to large and show results
 print "\nTotal Serial Numbers $#serials\n";
 exit;
